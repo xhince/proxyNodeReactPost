@@ -1,2 +1,2 @@
 [config]
-command = yarn dev
+command = deploy.cmd
