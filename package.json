@@ -1,11 +1,23 @@
 {
-  "name": "example-create-react-app-express",
+  "name": "react_nodejs2",
   "version": "1.0.0",
+  "description": "react_nodejs2",
+  "main": "server.js",
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhince/proxyNodeReactPost.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xhince/proxyNodeReactPost/issues"
+  },
+  "homepage": "https://github.com/xhince/proxyNodeReactPost#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
